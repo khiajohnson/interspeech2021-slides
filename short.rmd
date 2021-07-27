@@ -1,0 +1,110 @@
+---
+title: "Interspeech slides"
+author: 
+  - "Khia A. Johnson + Molly Babel"
+  - "The 13th International Symposium on Bilingualism"
+date: 'July 14, 2021'
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, custom.css]
+    seal: false
+    nature:
+      slideNumberFormat: ""
+      highlightStyle: tomorrow
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+
+---
+layout: true
+class: left, top
+
+<div class="footer">
+<a href="https://twitter.com/khia_johnson">`r fa('twitter', fill ='#00A7E1')` <tt>@khia_johnson</tt></a> | Leveraging the uniformity framework | #1780
+</div>
+
+---
+class: left, middle
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(ggthemes)
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+
+theme_set(theme_clean() + theme(
+      legend.title = element_text(face = 'bold', size=10),
+      legend.text = element_text(size=10),
+      legend.position = 'bottom',
+      axis.title.x = element_text(size = 10, face='bold'),
+      axis.title.y = element_text(size = 10, face='bold'),
+      strip.text = element_text(size=10, face='bold'),
+      plot.background = element_blank()
+    ))
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo(
+  primary_color = "#ffffff", 
+  secondary_color = "#002145",
+  text_font_google   = google_font("Montserrat", "400", "400i"),
+  code_font_google   = google_font("Fira Mono"),
+  header_h1_font_size = '3rem',
+  header_h2_font_size = '2.25rem',
+  header_h3_font_size = '1.75rem',
+  text_font_size = '1.25rem',
+  text_color = '#002145',
+  code_inline_color = '#00A7E1',
+  link_color = '#00A7E1'
+)
+
+# extra_css <- list(
+#   ".small" = list("font-size" = "80%"),
+#   ".big" = list("font-size" = "150%"),
+#   ".header" = list("position" = "absolute", "bottom" = "12px", "left"="20px", "font-size" = "80%")
+# )
+# style_extra_css(css = extra_css, outfile = "custom.css")
+```
+
+<!-- ## Leveraging the uniformity framework to examine crosslinguistic similarity for long-lag stops in spontaneous Cantonese-English bilingual speech -->
+<!-- #### Khia A. Johnson  -->
+<!-- Department of Linguistics<br>University of British Columbia -->
+<!-- ??? -->
+
+## languages influence each other
+
+- CLI work based on telling things apart
+- telling things together vs. telling things apart
+- 
+
+???
+
+
+---
+## methods + results
+
+
+???
+
+
+---
+
+## takeaways
+
+
+???
+
+
+---

@@ -1,0 +1,15 @@
+
+
+/* Extra CSS */
+.small {
+  font-size: 80%;
+}
+.big {
+  font-size: 150%;
+}
+.footer {
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  font-size: 80%;
+}
