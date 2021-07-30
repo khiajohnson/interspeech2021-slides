@@ -17,13 +17,11 @@ layout: true
 class: left, top
 
 &lt;div class="footer"&gt;
-&lt;a href="https://twitter.com/khia_johnson"&gt;<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#00A7E1;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> &lt;tt&gt;@khia_johnson&lt;/tt&gt;&lt;/a&gt; | Leveraging the uniformity framework | #1780
+&lt;a href="https://twitter.com/khia_johnson"&gt;<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#00A7E1;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> &lt;tt&gt;@khia_johnson&lt;/tt&gt;&lt;/a&gt; | #Interspeech2021 | Leveraging the uniformity framework | Paper ID 1780
 &lt;/div&gt;
 
 ---
 class: left, middle
-
-
 
 
 
@@ -32,31 +30,144 @@ class: left, middle
 &lt;!-- Department of Linguistics&lt;br&gt;University of British Columbia --&gt;
 &lt;!-- ??? --&gt;
 
-## languages influence each other
+## Do highly similar speech sounds from different langauges arise from the same underlying category?
 
-- CLI work based on telling things apart
-- telling things together vs. telling things apart
-- 
+[some kind of image...]
+
+???
+Crosslinguistic influence is widespread at phonetic level, but most of the work is based on research with phonologically similar sounds that are phonetically distinct. A classic example of this is English long lag k, compared to a Spanish short lag k. Same place in the inventory, different laryngeal gesture. This allows you to physically tell the two sounds apart.
+
+How do you asses that things are indeed similar to each other. How do you tell them together? Because things that are the most alike already have the most potential for sharing a mental representation, or quote "being the same."
+
+
+
+
+---
+class: left, middle
+
+## The SpiCE Corpus
+### Speech in Cantonese &amp; English
+
+.pull-left[
+
+- Casual interview data
+
+- 34 early bilingual talkers
+
+- Sample of **9,458** long-lag stops 
+]
+
+.pull-right[
+Documentation: &lt;br&gt;&lt;https://spice-corpus.readthedocs.io&gt;
+
+&lt;img src='images/openaccess.png' height=70&gt;
+]
+
+
+???
+The data set here comes from the SpiCE of speech in cantonese and english. 
+It contains casual interviews between bilingual peers in both languages-- so its within-talker data.
+We collected a sample from the corpus of all the word-initial pre-vocalic long lag stops
+After filtering for measurement error and that sort of thing, we were left with just under 10k stops
+
+
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+**&gt;&gt; Ordinal relationships**
+
+Correlations
+
+Mixed effects model
+]
+
+.pull-right[
+
+| Language  | P &lt; T | T &lt; K | P &lt; K | 
+| --------- | -------- | ----- | ------ | 
+| Cantonese &amp;nbsp;&amp;nbsp; | 0.27 ❌  &amp;nbsp;&amp;nbsp; | 0.61 🤷&amp;nbsp;&amp;nbsp; | 0.40 🤷 |
+| English &amp;nbsp;&amp;nbsp;   | 0.74 ✅  &amp;nbsp;&amp;nbsp;| 0.18 ❌ &amp;nbsp;&amp;nbsp;| 0.41 🤷 |
+
+]
+
 
 ???
 
 
 ---
-## methods + results
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+**&gt;&gt; Ordinal relationships**
+
+Correlations
+
+Mixed effects model
+]
+
+.pull-right[
+
+| Language  | P &lt; T | T &lt; K | P &lt; K | 
+| --------- | -------- | ----- | ------ | 
+| Cantonese &amp;nbsp;&amp;nbsp; | 0.27 ❌  &amp;nbsp;&amp;nbsp; | 0.61 🤷&amp;nbsp;&amp;nbsp; | 0.40 🤷 |
+| English &amp;nbsp;&amp;nbsp;   | 0.74 ✅  &amp;nbsp;&amp;nbsp;| 0.18 ❌ &amp;nbsp;&amp;nbsp;| 0.41 🤷 |
+
+]
 
 
 ???
 
 
----
 
-## takeaways
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+Ordinal relationships
+
+**&gt;&gt;Correlations**
+
+Mixed effects model
+]
+
+.pull-right[
+&lt;img src='images/corr.png' height=300&gt;
+
+
+]
+
+
+???
+
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+Ordinal relationships
+
+Correlations
+
+**&gt;&gt;Mixed effects model**
+]
+
+.pull-right[
+
+Read the paper! 
+]
 
 
 ???
 
 
----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

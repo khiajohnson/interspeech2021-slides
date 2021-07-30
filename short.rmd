@@ -20,7 +20,7 @@ layout: true
 class: left, top
 
 <div class="footer">
-<a href="https://twitter.com/khia_johnson">`r fa('twitter', fill ='#00A7E1')` <tt>@khia_johnson</tt></a> | Leveraging the uniformity framework | #1780
+<a href="https://twitter.com/khia_johnson">`r fa('twitter', fill ='#00A7E1')` <tt>@khia_johnson</tt></a> | #Interspeech2021 | Leveraging the uniformity framework | Paper ID 1780
 </div>
 
 ---
@@ -52,9 +52,7 @@ theme_set(theme_clean() + theme(
       strip.text = element_text(size=10, face='bold'),
       plot.background = element_blank()
     ))
-```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo(
   primary_color = "#ffffff", 
@@ -83,28 +81,141 @@ style_duo(
 <!-- Department of Linguistics<br>University of British Columbia -->
 <!-- ??? -->
 
-## languages influence each other
+## Do highly similar speech sounds from different langauges arise from the same underlying category?
 
-- CLI work based on telling things apart
-- telling things together vs. telling things apart
-- 
+[some kind of image...]
+
+???
+Crosslinguistic influence is widespread at phonetic level, but most of the work is based on research with phonologically similar sounds that are phonetically distinct. A classic example of this is English long lag k, compared to a Spanish short lag k. Same place in the inventory, different laryngeal gesture. This allows you to physically tell the two sounds apart.
+
+How do you asses that things are indeed similar to each other. How do you tell them together? Because things that are the most alike already have the most potential for sharing a mental representation, or quote "being the same."
+
+
+
+
+---
+class: left, middle
+
+## The SpiCE Corpus
+### Speech in Cantonese & English
+
+.pull-left[
+
+- Casual interview data
+
+- 34 early bilingual talkers
+
+- Sample of **9,458** long-lag stops 
+]
+
+.pull-right[
+Documentation: <br><https://spice-corpus.readthedocs.io>
+
+<img src='images/openaccess.png' height=70>
+]
+
+
+???
+The data set here comes from the SpiCE of speech in cantonese and english. 
+It contains casual interviews between bilingual peers in both languages-- so its within-talker data.
+We collected a sample from the corpus of all the word-initial pre-vocalic long lag stops
+After filtering for measurement error and that sort of thing, we were left with just under 10k stops
+
+
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+**>> Ordinal relationships**
+
+Correlations
+
+Mixed effects model
+]
+
+.pull-right[
+
+| Language  | P < T | T < K | P < K | 
+| --------- | -------- | ----- | ------ | 
+| Cantonese &nbsp;&nbsp; | 0.27 ❌  &nbsp;&nbsp; | 0.61 🤷&nbsp;&nbsp; | 0.40 🤷 |
+| English &nbsp;&nbsp;   | 0.74 ✅  &nbsp;&nbsp;| 0.18 ❌ &nbsp;&nbsp;| 0.41 🤷 |
+
+]
+
 
 ???
 
 
 ---
-## methods + results
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+**>> Ordinal relationships**
+
+Correlations
+
+Mixed effects model
+]
+
+.pull-right[
+
+| Language  | P < T | T < K | P < K | 
+| --------- | -------- | ----- | ------ | 
+| Cantonese &nbsp;&nbsp; | 0.27 ❌  &nbsp;&nbsp; | 0.61 🤷&nbsp;&nbsp; | 0.40 🤷 |
+| English &nbsp;&nbsp;   | 0.74 ✅  &nbsp;&nbsp;| 0.18 ❌ &nbsp;&nbsp;| 0.41 🤷 |
+
+]
 
 
 ???
 
 
----
 
-## takeaways
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+Ordinal relationships
+
+**>>Correlations**
+
+Mixed effects model
+]
+
+.pull-right[
+<img src='images/corr.png' height=300>
+
+
+]
+
+
+???
+
+---
+class: left, middle
+
+## Identifying *uniform* structure in phonetic variation:
+
+.pull-left[
+Ordinal relationships
+
+Correlations
+
+**>>Mixed effects model**
+]
+
+.pull-right[
+
+Read the paper! 
+]
 
 
 ???
 
 
----
