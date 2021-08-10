@@ -24,8 +24,7 @@ class: left, top
 </div>
 
 ---
-class: left, middle
-
+class:middle
 ```{r setup, include=FALSE}
 library(fontawesome)
 library(tidyverse)
@@ -81,9 +80,9 @@ style_duo(
 <!-- Department of Linguistics<br>University of British Columbia -->
 <!-- ??? -->
 
-## Do highly similar speech sounds from different langauges arise from the same underlying category?
 
-[some kind of image...]
+## Do highly similar speech sounds from different langauges arise from the same underlying category?
+<br><br>&nbsp;
 
 ???
 Crosslinguistic influence is widespread at phonetic level, but most of the work is based on research with phonologically similar sounds that are phonetically distinct. A classic example of this is English long lag k, compared to a Spanish short lag k. Same place in the inventory, different laryngeal gesture. This allows you to physically tell the two sounds apart.
@@ -94,8 +93,8 @@ How do you asses that things are indeed similar to each other. How do you tell t
 
 
 ---
-class: left, middle
 
+<br> 
 ## The SpiCE Corpus
 ### Speech in Cantonese & English
 
@@ -121,53 +120,33 @@ It contains casual interviews between bilingual peers in both languages-- so its
 We collected a sample from the corpus of all the word-initial pre-vocalic long lag stops
 After filtering for measurement error and that sort of thing, we were left with just under 10k stops
 
-
 ---
-class: left, middle
+
+<br>
 
 ## Identifying *uniform* structure in phonetic variation:
 
-.pull-left[
-**>> Ordinal relationships**
+- Ordinal relationships
 
-Correlations
+- Correlations
 
-Mixed effects model
-]
+- Mixed effects model
 
-.pull-right[
 
+---
+
+<br> 
+
+## Relatively few talkers show expected ordinal relationship for mean VOT
+
+<br>
+.left[
+.big[
 | Language  | P < T | T < K | P < K | 
 | --------- | -------- | ----- | ------ | 
-| Cantonese &nbsp;&nbsp; | 0.27 ❌  &nbsp;&nbsp; | 0.61 🤷&nbsp;&nbsp; | 0.40 🤷 |
-| English &nbsp;&nbsp;   | 0.74 ✅  &nbsp;&nbsp;| 0.18 ❌ &nbsp;&nbsp;| 0.41 🤷 |
-
+| Cantonese &nbsp;&nbsp; | 0.24 ❌  &nbsp;&nbsp; | 0.61 🤷 &nbsp;&nbsp; | 0.49 🤷 |
+| English &nbsp;&nbsp;   | 0.82 ✅  &nbsp;&nbsp; | 0.06 ❌ &nbsp;&nbsp; | 0.47 🤷 |
 ]
-
-
-???
-
-
----
-class: left, middle
-
-## Identifying *uniform* structure in phonetic variation:
-
-.pull-left[
-**>> Ordinal relationships**
-
-Correlations
-
-Mixed effects model
-]
-
-.pull-right[
-
-| Language  | P < T | T < K | P < K | 
-| --------- | -------- | ----- | ------ | 
-| Cantonese &nbsp;&nbsp; | 0.27 ❌  &nbsp;&nbsp; | 0.61 🤷&nbsp;&nbsp; | 0.40 🤷 |
-| English &nbsp;&nbsp;   | 0.74 ✅  &nbsp;&nbsp;| 0.18 ❌ &nbsp;&nbsp;| 0.41 🤷 |
-
 ]
 
 
@@ -176,44 +155,41 @@ Mixed effects model
 
 
 ---
-class: left, middle
 
-## Identifying *uniform* structure in phonetic variation:
+<br>
 
-.pull-left[
-Ordinal relationships
+## Within language correlations show *some* uniformity
 
-**>>Correlations**
-
-Mixed effects model
-]
-
-.pull-right[
-<img src='images/corr.png' height=300>
-
-
+.center[
+<img src='images/corr-bt.png' height=400>
 ]
 
 
 ???
 
 ---
-class: left, middle
 
-## Identifying *uniform* structure in phonetic variation:
+<br>
 
-.pull-left[
-Ordinal relationships
+## Across language correlations show *very little* uniformity
 
-Correlations
-
-**>>Mixed effects model**
+.center[
+<img src='images/corr-in.png' height=400>
 ]
 
-.pull-right[
+???
 
-Read the paper! 
-]
+---
+
+<br>
+## The takeaway? It's murky.
+
+- Less structure to VOT variation than anticipated
+
+- Mixed effect model indicates English T/K have consistently longer VOT
+
+- Implications for multilingual representation
+
 
 
 ???
