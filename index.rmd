@@ -24,7 +24,7 @@ class: left, top
 </div>
 
 ---
-class:middle
+class:middle,center
 ```{r setup, include=FALSE}
 library(fontawesome)
 library(tidyverse)
@@ -75,12 +75,15 @@ style_duo(
 # style_extra_css(css = extra_css, outfile = "custom.css")
 ```
 
-<!-- ## Leveraging the uniformity framework to examine crosslinguistic similarity for long-lag stops in spontaneous Cantonese-English bilingual speech -->
-<!-- #### Khia A. Johnson  -->
-<!-- Department of Linguistics<br>University of British Columbia -->
-<!-- ??? -->
+## Leveraging the uniformity framework to examine crosslinguistic similarity for long-lag stops in spontaneous Cantonese-English bilingual speech
 
+#### Khia A. Johnson
 
+Department of Linguistics<br>University of British Columbia
+
+Interspeech 2021 | Paper ID 1780
+---
+class:middle
 ## Do highly similar speech sounds from different langauges arise from the same underlying category?
 <br><br>&nbsp;
 
